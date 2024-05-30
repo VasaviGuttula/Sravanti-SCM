@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Login</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        max-width: 400px;
+        margin: 100px auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(244, 244, 244, 0.1);
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    table {
+        width: 100%;
+    }
+    td {
+        padding: 10px 0;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #246ca6;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #004c7a;
+    }
+    .options {
+        text-align: center;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons a {
+        margin: 0 10px;
+    }
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>User Account</h2>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><input type="text" name="username" placeholder="Email ID or Member ID" required></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" placeholder="Password" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Sign in"></td>
+                </tr>
+            </table>
+        </form>
+        <div class="options">
+            <p>New user? <a href="C:\Users\vasav\Downloads\vasavi\vasavi\create_account.html">Create Account</a></p>
+            <p>Or Sign in with</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="C:\Users\vasav\Downloads\images (1).png" alt="Sign in with Google"></a>
+            <a href="#"><img src="C:\Users\vasav\Downloads\2021_Facebook_icon.svg.png" alt="Sign in with Facebook"></a>
+            <a href="#"><img src="C:\Users\vasav\Downloads\images.png" alt="Sign in with LinkedIn"></a>
+            <a href="#"><img src="C:\Users\vasav\Downloads\new-2023-twitter-logo-x-icon-design_1017-45418.png" alt="Sign in with X"></a>
+        </div>
+    </div>
+</body>
+</html>
